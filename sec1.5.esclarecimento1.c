@@ -3,5 +3,5 @@
 sec_1_5_esclarecimento_1()
 {
     /* o caractere nao imprimivel NUL ('\0') tem valor = 0 */
-    printf("caractere '\\0' (NUL) = %d.\n",'\0'); //imprime o caractere '\0' como um inteiro
+    printf("caractere '\\0' (NUL) = %d.\n",'\0'); /* imprime o caractere '\0' como um inteiro */
 }
