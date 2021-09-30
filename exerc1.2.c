@@ -2,50 +2,65 @@
 
 prog1_2()
 {
-    printf("\j\p");/* imprime jp */
+	printf("printf(\"\\j\\p\"); imprime ");
+    printf("\j\p");
     printf("\n");
 
-    printf("\8\9");/* imprime 89 */
+	printf("printf(\"\\8\\9\"); imprime ");
+    printf("\8\9");
     printf("\n");
 
-    printf("\1");/* nao imprime 1 */
+	printf("printf(\"\\1\"); imprime ");
+    printf("\1");
     printf("\n");
 
-    printf("\2");/* nao imprime 2 */
+	printf("printf(\"\\2\"); imprime ");
+    printf("\2");
     printf("\n");
 
-    printf("\1\2");/* nao imprime 12 */
+	printf("printf(\"\\1\\2\"); imprime ");
+    printf("\1\2");
     printf("\n");
 
-    printf("\*");/* imprime * */
+	printf("printf(\"\\*\"); imprime ");
+    printf("\*");
     printf("\n");
 
-    printf("\&");/* imprime & */
+	printf("printf(\"\\&\"); imprime ");
+    printf("\&");
     printf("\n");
 
-    printf("\|");/* imprime | */
+	printf("printf(\"\\|\"); imprime ");
+    printf("\|");
     printf("\n");
 
-    printf("\/");/* imprime / */
+	printf("printf(\"\\/\"); imprime ");
+    printf("\/");
     printf("\n");
 
-    printf("\@");/* imprime @ */
+	printf("printf(\"\\@\"); imprime ");
+    printf("\@");
     printf("\n");
 
-    printf("\~");/* imprime ~ */
+	printf("printf(\"\\~\"); imprime ");
+    printf("\~");
     printf("\n");
 
-    printf("\$");/* imprime $ */
+	printf("printf(\"\\$\"); imprime ");
+    printf("\$");
     printf("\n");
 
-    printf("\!");/* imprime ! */
+	printf("printf(\"\\!\"); imprime ");
+    printf("\!");
     printf("\n");
 
-    printf("\?");/* imprime ? */
+	printf("printf(\"\\?\"); imprime ");
+    printf("\?");
     printf("\n");
 
-    printf("\=");/* imprime = */
+	printf("printf(\"\\=\"); imprime ");
+    printf("\=");
     printf("\n");
 
-    /* teste outros */
+    printf("teste outros\n");
 }
