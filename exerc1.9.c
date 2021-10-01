@@ -2,16 +2,15 @@
 
 prog1_9()
 {
-    int c, canterior;
+	int c, canterior;
 
-    while((c = getchar()) != EOF){
-        if(c == ' ')
-        {
-            if(canterior != ' ')
-                putchar(c);
-        }
+	while((c = getchar()) != EOF){
+		if(c == ' '){
+			if(canterior != ' ')
+				putchar(c);
+		}
         else
-            putchar(c);
-        canterior = c;
-    }
+			putchar(c);
+		canterior = c;
+	}
 }
