@@ -9,7 +9,7 @@ prog1_9()
 			if(canterior != ' ')
 				putchar(c);
 		}
-        else
+		else
 			putchar(c);
 		canterior = c;
 	}
