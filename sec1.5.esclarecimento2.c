@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-sec_1_5_esclarecimento_2()
+main()
 {
     int c;
     printf("Escreva algo e tecle <enter> para que a sequencia dos caracteres fornecidos seja lida: ");
