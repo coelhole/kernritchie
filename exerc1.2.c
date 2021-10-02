@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-prog1_2()
+main()
 {
 	printf("printf(\"\\j\\p\"); imprime ");
 	printf("\j\p");

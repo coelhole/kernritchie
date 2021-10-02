@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-sec_1_1_esclarecimento_3()
+main()
 {
-    printf("A sequencia \\\\ representa uma barra \\.\n");
+	printf("A sequencia \\\\ representa uma barra \\.\n");
 }

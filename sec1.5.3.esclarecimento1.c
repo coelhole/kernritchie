@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-sec_1_5_3_esclarecimento_1()
+main()
 {
 	int c = 'a';
 

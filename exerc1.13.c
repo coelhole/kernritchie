@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-prog1_13()
+main()
 {
 	#define TAMANHO_MAXIMO 100	/* vamos presumir que nenhuma palavra fornecida tenha mais do que 100 caracteres */
 

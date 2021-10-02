@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-prog1_8()
+main()
 {
 	int c, ns, nt, nl;
 	ns = 0;

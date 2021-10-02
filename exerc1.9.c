@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-prog1_9()
+main()
 {
 	int c, canterior;
 

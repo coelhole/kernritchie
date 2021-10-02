@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-prog1_7()
+main()
 {
-    printf("EOF = %d.\n", EOF);
+	printf("EOF = %d.\n", EOF);
 }

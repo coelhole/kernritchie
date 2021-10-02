@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-prog1_6()
+main()
 {
-    printf("Para sair, tecle enter...");
-    int c = (getchar()!=EOF);
-    printf("(getchar()!=EOF) is %d.\n", c);
+	printf("Para sair, tecle enter...");
+	int c = (getchar()!=EOF);
+	printf("(getchar()!=EOF) is %d.\n", c);
 }
