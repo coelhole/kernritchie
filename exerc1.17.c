@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define MAXLINHA 1000	/* tamanho maximo da linha entrada */
+#define TAMANHO_MINIMO 80
 
 int lelinha(char linha[], int maxlinha);
 void copia(char para[], char de[]);
@@ -9,21 +10,15 @@ void copia(char para[], char de[]);
 int main()
 {
 	int tam;	/* tamanho corrente da linha */
-	int max;	/* tamanho maximo visto ate agora */
 	char linha[MAXLINHA];	/* linha corrente */
-	char maior[MAXLINHA];	/* maior linha guardada */
-	max = 0;
 	while((tam = lelinha(linha, MAXLINHA)) > 0)
-		if(tam > max) {
-			max = tam;
-			copia(maior, linha);
+		if(tam > TAMANHO_MINIMO) {
+			printf("%s", linha);
 			while(linha[tam-1] != '\n') {
 				tam = lelinha(linha, MAXLINHA);
-				max = max + tam;
+				printf("%s", linha);
 			}
 		}
-	if(max > 0)	/* entrada tinha uma linha */
-		printf("%s", maior);
 	return 0;
 }
 
