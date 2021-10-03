@@ -5,7 +5,7 @@
 
 int lelinha(char linha[], int maxlinha);
 
-/* imprime maior linha entrada */
+/* imprime linhas entradas com mais de TAMANHO_MINIMO caracteres */
 int main()
 {
 	int tam;	/* tamanho corrente da linha */
