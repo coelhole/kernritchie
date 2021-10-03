@@ -2,7 +2,8 @@
 
 printfahrenheitcelsius(int fahr);
 
-printfahrenheitcelsius(int fahr) {
+printfahrenheitcelsius(int fahr)
+{
 	printf("%d\t%d\n", fahr, 5*(fahr-32)/9);
 }
 

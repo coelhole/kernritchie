@@ -2,7 +2,8 @@
 
 int fahrenheit2celsius(int fahr);
 
-int fahrenheit2celsius(int fahr) {
+int fahrenheit2celsius(int fahr)
+{
 	return 5*(fahr-32)/9;
 }
 
