@@ -16,7 +16,7 @@ main()
 		++frequencias[c-PRIMEIRO_CARACTERE_IMPRIMIVEL];
 
 	/* HISTOGRAMA */
-	for(i = 0; i <= ULTIMO_CARACTERE_IMPRIMIVEL-PRIMEIRO_CARACTERE_IMPRIMIVEL; ++i){
+	for(i = 0; i <= ULTIMO_CARACTERE_IMPRIMIVEL-PRIMEIRO_CARACTERE_IMPRIMIVEL; ++i) {
 		printf("%3d ",PRIMEIRO_CARACTERE_IMPRIMIVEL+i);
 		for(c = 0; c < frequencias[i]; ++c)
 			putchar('=');

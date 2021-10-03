@@ -3,7 +3,7 @@
 main()
 {
 	int c, canterior;
-	while((c = getchar()) != EOF){
+	while((c = getchar()) != EOF) {
 		if(c != ' ' && c != '\t' && c != '\n')
 			putchar(c);
 		/* ELSE: c == ' ' || c == '\t' || c == '\n' */

@@ -11,10 +11,10 @@ main()
 	for(i = 0; i <= TAMANHO_MAXIMO; ++i)
 		tamanhos[i] = 0;
 
-	while((c = getchar()) != EOF){
+	while((c = getchar()) != EOF) {
 		if(c != ' ' && c != '\t' && c != '\n')
 			++tamanho;
-		else if(canterior != ' ' && canterior != '\t' && canterior != '\n'){
+		else if(canterior != ' ' && canterior != '\t' && canterior != '\n') {
 			++tamanhos[tamanho];
 			if(tamanho>maiortamanho)
 				maiortamanho=tamanho;
@@ -24,7 +24,7 @@ main()
 	}
 
 	/* HISTOGRAMA */
-	for(i = 0; i <= maiortamanho; ++i){
+	for(i = 0; i <= maiortamanho; ++i) {
 		printf("%3d ",i);
 		for(c = 0; c < tamanhos[i]; ++c)
 			putchar('=');

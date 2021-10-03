@@ -4,7 +4,7 @@ main()
 {
 	int c, canterior;
 
-	while((c = getchar()) != EOF){
+	while((c = getchar()) != EOF) {
 		if(c != ' ')
 			putchar(c);
 		if(c == ' ')
