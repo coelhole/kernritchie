@@ -4,7 +4,6 @@
 #define TAMANHO_MINIMO 80
 
 int lelinha(char linha[], int maxlinha);
-void copia(char para[], char de[]);
 
 /* imprime maior linha entrada */
 int main()
@@ -35,15 +34,4 @@ int lelinha(char s[], int lim)
 	}
 	s[i] = '\0';
 	return i;
-}
-
-/* copia: copia 'de' --> 'para'; presume que para eh grande
-	o suficiente */
-void copia(char para[], char de[])
-{
-	int i;
-
-	i = 0;
-	while((para[i] = de[i])!='\0')
-		++i;
 }
