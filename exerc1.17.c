@@ -3,7 +3,7 @@
 #define MAXLINHA 1000	/* tamanho maximo da linha entrada */
 #define TAMANHO_MINIMO 80
 
-int lelinha(char linha[], int maxlinha);
+int lelinha(char s[], int lim);
 
 /* imprime linhas entradas com mais de TAMANHO_MINIMO caracteres */
 int main()

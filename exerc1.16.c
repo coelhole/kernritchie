@@ -2,7 +2,7 @@
 
 #define MAXLINHA 1000	/* tamanho maximo da linha entrada */
 
-int lelinha(char linha[], int maxlinha);
+int lelinha(char s[], int lim);
 void copia(char para[], char de[]);
 
 /* imprime maior linha entrada */
