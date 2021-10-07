@@ -63,6 +63,6 @@ void destab(char s[], int lim)
 				n = n + TABSIZE - 1;
 			}
 		}
-        ++n;
+		++n;
 	}
 }
