@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 #define MAXLINHA 1000	/* tamanho maximo da linha entrada */
-#define TAB "        "	/* 1 tab = 8 espacos */
 #define TABSIZE 8
 
 int lelinha(char s[], int lim);
